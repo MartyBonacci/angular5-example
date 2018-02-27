@@ -10,7 +10,13 @@ import "rxjs";
 
 // Other vendors for example Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
+import "popper.js";
 import "jquery";
 import "bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "font-awesome-webpack2";
+
+// font awesome
+import "@fortawesome/fontawesome";
+import "@fortawesome/fontawesome-free-brands";
+import "@fortawesome/fontawesome-free-regular";
+import "@fortawesome/fontawesome-free-solid";
